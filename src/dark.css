@@ -1,0 +1,121 @@
+/* Root container */
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right,
+            #454B57, #3F5369);
+}
+
+/* Header bar */
+#header {
+    -fx-background-color: #2e3c4a;
+    -fx-border-color: #444444;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 10;
+}
+
+#nameLabel {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Options button */
+#optionsMenu {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e3d6d6;
+    -fx-color:#ffffff;
+    -fx-font-size: 20px;
+}
+
+/* ScrollPane styling */
+#scrollPane {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+/* Message area container */
+#messageArea {
+    -fx-background-color: transparent;
+}
+
+/* Input area container */
+#inputArea {
+    -fx-background-color: #5C6773;
+    -fx-border-color: #444;
+    -fx-border-width: rgba(10, 10, 10, 0)0 0 0;
+    -fx-padding: 8;
+}
+
+/* Emoji button */
+#emojiButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-cursor: hand;
+}
+
+/* Text field for typing messages */
+#messageField {
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #aaaaaa;
+    -fx-font-size: 14px;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 6 10 6 10;
+}
+
+/* Send button */
+#sendButton {
+    -fx-background-color: linear-gradient(to right, #454B57, #142e48);
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+/* Scrollbar adjustments */
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #555;
+    -fx-background-radius: 8;
+}
+
+/* Menu items inside options button */
+.menu-item {
+    -fx-background-color: #c7c8ca;
+    -fx-text-fill: rgb(97, 97, 97);
+}
+
+.menu-item:hover {
+    -fx-background-color: #b4a8a8;
+}
+
+.self-message {
+    -fx-background-color: linear-gradient(to right, #434343, #000000);
+    -fx-text-fill: white;
+    -fx-padding: 8;
+    -fx-background-radius: 12;
+}
+
+.received-message {
+    -fx-background-color: linear-gradient(to right, #232526, #414345);
+    -fx-text-fill: white;
+    -fx-padding: 8;
+    -fx-background-radius: 12;
+}
+
+.server-message {
+    -fx-background-color: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    -fx-text-fill: white;
+    -fx-padding: 8;
+    -fx-background-radius: 12;
+    -fx-alignment: center;
+}
+#optionsMenu:hover {
+    -fx-text-fill: #edeef3;
+}

@@ -1,0 +1,122 @@
+/* Root container */
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom left, #C1D9FF, #D6EFFF);
+}
+
+/* Header bar */
+#header {
+    -fx-background-color: #C1D9FF;
+    -fx-border-color: #D6EFFF;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 10;
+}
+
+#nameLabel {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Options button (menu button ☰) */
+#optionsMenu {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20px;
+}
+
+/* ScrollPane styling */
+#scrollPane {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+/* Message area container */
+#messageArea {
+    -fx-background-color: transparent;
+}
+
+/* Sent message bubble */
+.self-message {
+    -fx-background-color: linear-gradient(to right, #afbbf0, #c69bf1);
+    -fx-text-fill: rgb(50, 50, 50);
+    -fx-padding: 8;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-font-size: 14px;
+}
+
+/* Received message bubble */
+.received-message {
+    -fx-background-color: linear-gradient(to right, #afbbf0, #ffcbec);
+    -fx-text-fill: #333333;
+    -fx-padding: 8;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-font-size: 14px;
+}
+.server-message {
+    -fx-background-color: linear-gradient(to right, #c498ff, #c7a8ef);
+    -fx-text-fill: white;
+    -fx-padding: 8;
+    -fx-background-radius: 12;
+    -fx-alignment: center;
+}
+/* Input area container */
+#inputArea {
+    
+    -fx-background-color: #C1D9FF;
+    -fx-border-color: #D6EFFF;
+    -fx-border-width: 1px 0 0 0;
+    -fx-padding: 8;
+}
+
+/* Emoji button */
+#emojiButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #030303;
+    -fx-font-size: 18px;
+    -fx-cursor: hand;
+}
+
+/* Text field for typing messages */
+#messageField {
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+    -fx-text-fill: rgb(38, 38, 38);
+    -fx-prompt-text-fill: #aaaaaa;
+    -fx-font-size: 14px;
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-padding: 6 10 6 10;
+}
+
+/* Send button */
+#sendButton {
+    -fx-background-color: linear-gradient(to right, #C1D9FF, #afceff);
+    -fx-text-fill: #ffffff;
+    -fx-border-color:#D6EFFF;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+/* Scrollbar adjustments */
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #555;
+    -fx-background-radius: 8;
+}
+
+/* Menu items inside options button */
+.menu-item {
+    -fx-background-color: #c7c8ca;
+    -fx-text-fill: rgb(46, 46, 46);
+}
+
+.menu-item:hover {
+    -fx-background-color: #b4a8a8;
+}

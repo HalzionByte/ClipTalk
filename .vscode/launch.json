@@ -1,0 +1,97 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClientUI",
+            "request": "launch",
+            "mainClass": "ClientUI",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "ClientUI",
+            "request": "launch",
+            "mainClass": "src.ClientUI",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "src.Client",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "src.Server",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "WindowBuilder",
+            "request": "launch",
+            "mainClass": "WindowBuilder",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "ChatApp",
+            "request": "launch",
+            "mainClass": "src.ChatApp",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "WhatsAppUI",
+            "request": "launch",
+            "mainClass": "src.WhatsAppUI",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "Chat",
+            "request": "launch",
+            "mainClass": "Chat",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "Chat",
+            "request": "launch",
+            "mainClass": "src.Chat",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "Chat",
+            "request": "launch",
+            "mainClass": "src.Chat",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "appmy",
+            "request": "launch",
+            "mainClass": "src.appmy",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "appmy",
+            "request": "launch",
+            "mainClass": "appmy",
+            "projectName": "p2p chat_7779043"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "app",
+            "vmArgs": "--module-path \"C:\\Users\\user\\OneDrive\\Desktop\\p2p chat\\lib\" --add-modules javafx.controls",
+            "args": ""
+        }
+    ]
+}
