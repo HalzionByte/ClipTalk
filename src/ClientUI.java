@@ -116,7 +116,7 @@ public class ClientUI extends Application {
         // Scene & CSS front/ styling
         StackPane stackPane = new StackPane(root);
         scene = new Scene(stackPane, 400, 600);
-        String cssPath = new File("C:\\Users\\user\\OneDrive\\Desktop\\p2p chat\\src\\style1.css").toURI().toString();
+        String cssPath = new File("src/style1.css").toURI().toString();
         scene.getStylesheets().add(cssPath);
 
         primaryStage.setScene(scene);
@@ -128,11 +128,11 @@ public class ClientUI extends Application {
     private void switchTheme(String themeFile) {
     // Clear all existing stylesheets except primary style1.css
     scene.getStylesheets().clear();
-    String baseCss = new File("C:\\Users\\user\\OneDrive\\Desktop\\p2p chat\\src\\style1.css").toURI().toString();
+    String baseCss = new File("src/style1.css").toURI().toString();
     scene.getStylesheets().add(baseCss);
 
     // Add the selected theme CSS file
-    String themeCss = new File("C:\\Users\\user\\OneDrive\\Desktop\\p2p chat\\src\\" + themeFile).toURI().toString();
+    String themeCss = new File("src/" + themeFile).toURI().toString();
     scene.getStylesheets().add(themeCss);
 } 
 private void showEmojiPicker() {
